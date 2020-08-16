@@ -4,8 +4,233 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --text-primary-color: #484848;
+    --text-titles-color: #9C9494;
+    --bg-primary-color: #ED8DA2;
+    --bg-body-color: #DBA9B4;
+}
+
+::selection {
+    color: #FFF;
+    background-color: var(--bg-primary-color);
 }
 
 body {
-    background-color: #DBA9B4;
+    background-color: var(--bg-body-color);
+    font-size: 16px;
+    font-family: 'Roboto', 'Arial';
+    position: relative;
+    color: var(--text-primary-color);
 }
+
+a {
+    text-decoration: none;
+    color: var(--text-primary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1360px;
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+/*? Titulos das seções */
+.section-header header {
+    background-color: #FFF;
+    justify-content: center;
+    height: 60px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.section-header header h2 {
+    font-weight: normal;
+    color: var(--text-titles-color);
+} 
+
+.section-header .section-header-bar {
+    height: 15px;
+    width: 100%;
+    background-color: var(--bg-primary-color);
+    box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+input:focus,
+input:target {
+    outline: none;
+}
+
+/*! Menu Top */
+
+#menu-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #FFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 10%);
+    z-index: 999;
+}
+
+#menu-top .container {
+    display: flex;
+    align-items: center;
+}
+
+/** Logo */
+#menu-top .logo a {
+    font-family: 'Slant';
+    font-size: 40px;
+}
+
+#menu-top .logo span {
+    color: var(--bg-primary-color);
+}
+
+/** Links do menu */
+#menu-top .menu-links {
+    margin: 0 20px;
+}
+
+#menu-top .menu-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-top .menu-links ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 122px;
+    cursor: pointer;
+}
+
+#menu-top .menu-links ul li:hover {
+    background-color: var(--bg-primary-color);
+}
+
+#menu-top .menu-links ul li:hover a {
+    color: #FFF;
+}
+
+/** Pesquisa */
+#menu-top .search {
+    align-items: center;
+}
+
+#menu-top .search input {
+    width: 306px;
+    height: 40px;
+    font-size: 12px;
+    padding-left: 10px;
+    border: 1px solid #94949450;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 10%);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#menu-top .search input::placeholder {
+    font-size: 14px;
+}
+
+#menu-top .search i {
+    justify-content: center;
+    color: #FFF;
+    background-color: var(--bg-primary-color);
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 10%);
+}
+
+/** Login */
+#menu-top .login {
+    justify-content: center;
+    height: 40px;
+    width: 110px;
+    background-color: var(--bg-primary-color);
+    color: #FFF;
+    margin-left: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#menu-top .login i {
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+/*! Welcome  */
+
+#welcome {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-origin: content-box;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.329);
+}
+
+#welcome .welcome-text {
+    position: absolute;
+    top: 270px;
+    color: #FFF;
+}
+
+#welcome .welcome-text h2 {
+    font-size: 7rem;
+    font-weight: lighter;
+    font-family: 'Yellowtail';
+    text-align: center;
+}
+
+#welcome .welcome-text p {
+    text-align: center;
+    line-height: 24px;
+    font-size: 17px;
+}
+
+#welcome .welcome-text button {
+    display: block;
+    margin: 50px auto;
+    height: 50px;
+    width: 150px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgba(68, 68, 68, 0.34);
+    cursor: pointer;
+    color: var(--bg-primary-color);
+    transition: 0.3s background-color;
+}
+
+#welcome .welcome-text button:hover {
+    color: #FFF;
+    background-color: var(--bg-primary-color);
+}
+
+/*! DESTAQUES */

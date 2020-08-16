@@ -8,22 +8,58 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="./assets/css/styles.css">
-
         <!-- Bootstrap - Grid -->
         <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css">
 
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="./assets/css/fontawesome-min.css">
+        
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Menu -->
         <div id="menu-top">
-            <div class="logo">
-                <a href="#"></a>
+            <div class="container">
+                <div class="d-flex">
+                    <div class="logo">
+                        <a href="#">Cake<span>Land</span></a>
+                    </div>
+                    <nav class="menu-links">
+                        <ul>
+                            <li><a href="#">Receitas</a></li>
+                            <li><a href="#">Categorias</a></li>
+                            <li><a href="#">Vídeos</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-flex">
+                    <div class="search d-flex">
+                        <input type="text" placeholder="Bolo de morango com cobert...">
+                        <i class="fas fa-search d-flex"></i>
+                    </div>
+                    <a href="#" class="login d-flex">
+                        Entrar 
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                </div>
             </div>
-            <nav></nav>
         </div>
+        <!-- End Menu -->
+
+        <!-- Bem-vindo -->
+        <section id="welcome">
+            <div class="container">
+                <div class="welcome-text">
+                    <h2>Bem - vindo</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard dummy text ever since the 1500s..</p>
+                    <button>VER MAIS</button>
+                </div>
+            </div>
+        </section>
+        <!-- End Bem-vindo -->
     </body>
 </html>
