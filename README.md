@@ -10,7 +10,7 @@ Este site é o resultado de uma lição de casa do meu curso onde o tema era de 
 
 **E-mail**: emanuel.silvati@gmail.com
 
-Me chame no Linkedin **[LinkedIn](https://www.linkedin.com/in/emanuel-corrêa-b836a9170/)**
+Me chame no Linkedin **[LinkedIn](https://www.linkedin.com/in/emanuel-correa/)**
 
 Obrigado!
 
