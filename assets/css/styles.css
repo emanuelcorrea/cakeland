@@ -201,12 +201,12 @@ input:target {
 
 #welcome {
     position: relative;
-    height: 100vh;
+    height: 101vh;
     width: 100%;
     background-image: url('../images/bg.jpg');
     background-size: 100%;
     background-origin: border-box;
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.329);
 }
