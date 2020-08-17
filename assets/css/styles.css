@@ -201,7 +201,7 @@ input:target {
 
 #welcome {
     position: relative;
-    height: 101vh;
+    height: 100vh;
     width: 100%;
     background-image: url('../images/bg.jpg');
     background-size: 100%;
