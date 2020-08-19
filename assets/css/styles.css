@@ -5,7 +5,13 @@
     src: url('../fonts/slant-webfont.woff2') format('woff2'), url('../fonts/slant-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('../fonts/yellowtail-regular-webfont.woff2') format('woff2'), url('../fonts/yellowtail-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Extras */
