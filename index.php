@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <!-- Titule -->
+        <!-- Title -->
         <title>CakeLand - Receitas</title>
 
         <!-- Meta TAGS -->
