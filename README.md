@@ -18,4 +18,4 @@ Obrigado!
 License
 ----
 
-MIT
+[MIT](https://github.com/emanuelcorrea/cakeland/blob/master/LICENSE)
