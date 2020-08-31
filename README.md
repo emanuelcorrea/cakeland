@@ -1,4 +1,5 @@
-# CakeLand
+<h1 align="center">CakeLand</h1>
+
 
 ![Preview-Screens](https://i.imgur.com/yd2ADVk.png)
 
@@ -10,7 +11,7 @@ Este site é o resultado de uma lição de casa do meu curso onde o tema era de 
 
 **E-mail**: emanuel.silvati@gmail.com
 
-Me chame no Linkedin **[LinkedIn](https://www.linkedin.com/in/emanuel-correa/)**
+Me chame no Linkedin **[LinkedIn](https://www.linkedin.com/in/emanuel-correa)**
 
 Obrigado!
 
