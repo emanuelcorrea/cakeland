@@ -19,7 +19,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-- Favicon -->
-        <link href="./favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="./favicon.ico" rel="icon" type="image/x-icon">
     </head>
     <body>
         <!-- Menu -->
